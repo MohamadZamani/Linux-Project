@@ -9,6 +9,8 @@ Welcome to my central repository for enterprise Linux administration, automation
 * **Firewall & Security:** IPTables, Port Redirection (DNAT), Source NAT (Masquerading), SSH key lifecycle management
 * **Scripting & Automation:** Advanced Bash/Shell scripting, task scheduling (cron), deployment safety wrappers
 * **Version Control:** Git workflow integration (branching, tracking, commits)
+* **Storage Engineering:** Logical Volume Management (LVM), XFS filesystem formatting, persistent `/etc/fstab` configuration via UUIDs
+* **Access Control:** Linux Role-Based Access Control (RBAC), `chown`, strict octal permissions (`chmod 770`)
 
 ---
 
@@ -23,6 +25,8 @@ Welcome to my central repository for enterprise Linux administration, automation
 3. **[03-HA-Enterprise-NAT-Gateway](./03-HA-Enterprise-NAT-Gateway/)**
    * **Focus:** Designed a High-Availability edge gateway integrating Layer 2 hardware redundancy (active-backup interface bonding via Netplan) with Layer 4 traffic management (IPTables port redirection and NAT masquerading).
 
+4. **[04-LVM-Storage-Management](./04-LVM-Storage-Management/)**
+   * **Focus:** Aggregated raw block storage (`/dev/vdd`, `/dev/vde`) into a Volume Group, provisioned an LVM, applied an XFS filesystem, ensured reboot survivability via UUID-based `/etc/fstab` mounting, and secured the mount point with strict group-level access controls.
 ---
 
 ## 📈 Objective
