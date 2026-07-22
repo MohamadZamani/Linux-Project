@@ -5,8 +5,9 @@ Welcome to my central repository for enterprise Linux administration, automation
 ## 🛠️ Core Skills & Technologies Demonstrated
 * **Operating Systems:** RHEL/CentOS stream (DNF/YUM), Ubuntu/Debian ecosystem (APT)
 * **Web & Traffic Engineering:** Nginx reverse proxy configuration, upstream weighted load balancing, virtual host management
+* **Networking & High Availability:** Network interface bonding (Active-Backup), Netplan configuration, IP routing
+* **Firewall & Security:** IPTables, Port Redirection (DNAT), Source NAT (Masquerading), SSH key lifecycle management
 * **Scripting & Automation:** Advanced Bash/Shell scripting, task scheduling (cron), deployment safety wrappers
-* **Access & Security:** SSH key lifecycle management, Linux Permissions (`chmod`/`chown`), POSIX ACLs, User/Group administration
 * **Version Control:** Git workflow integration (branching, tracking, commits)
 
 ---
@@ -18,6 +19,9 @@ Welcome to my central repository for enterprise Linux administration, automation
    
 2. **[02-Nginx-Load-Balancer](./02-Nginx-Load-Balancer/)**
    * **Focus:** Weighted Nginx upstream load balancer scaling (`weight=3`), virtual host de-confliction, and an automated deployment safety wrapper script (`deploy_lb.sh`) with pre-flight syntax checks (`nginx -t`).
+
+3. **[03-HA-Enterprise-NAT-Gateway](./03-HA-Enterprise-NAT-Gateway/)**
+   * **Focus:** Designed a High-Availability edge gateway integrating Layer 2 hardware redundancy (active-backup interface bonding via Netplan) with Layer 4 traffic management (IPTables port redirection and NAT masquerading).
 
 ---
 
