@@ -29,7 +29,7 @@ sudo pvcreate /dev/vdd /dev/vde
 sudo vgcreate dba_storage /dev/vdd /dev/vde
 ```
 
-###Step 3: Logical Volume (LV) Provisioning
+### Step 3: Logical Volume (LV) Provisioning
 Allocate 100% of the available pooled storage to a new logical volume.
 ```bash
 # Create Logical Volume utilizing all free VG space
