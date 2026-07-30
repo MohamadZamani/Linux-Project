@@ -2,7 +2,9 @@
 
 ## 📖 Scenario Overview
 The database team requires additional storage capacity on their central server. This project demonstrates the provisioning of raw block storage into a highly flexible Logical Volume Management (LVM) stack, formatted with an XFS filesystem, mounted persistently via UUID, and secured using strict Role-Based Access Control (RBAC) group permissions.
+
 ![Architecture Dependency Flow](img/Scenario Diagram.png)
+
 ## 🛠️ Implementation Procedure
 
 ### Step 1: User/Group Provisioning & LVM Installation
