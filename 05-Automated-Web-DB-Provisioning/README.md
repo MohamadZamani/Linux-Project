@@ -3,7 +3,7 @@
 ## 📖 Scenario Overview
 The operations team required a single-node host server to run a secure MariaDB database backend and a containerized Nginx web frontend. To optimize resource allocation, the Nginx application lifecycle was automated to run strictly during business hours (8:00 AM to Midnight). This project demonstrates full-stack provisioning, including system security hardening via PAM, internal network configuration, database deployment, Docker containerization, and custom Bash automation.
 
-![Architecture Dependency Flow](architecture-dependency-flow.png)
+![Architecture Dependency Flow](img/1-architecture-dependency-flow.png)
 
 ## 🛠️ Implementation Procedure
 
