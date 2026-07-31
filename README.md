@@ -30,6 +30,9 @@ Welcome to my central repository for enterprise Linux administration, automation
 
 5. **[05-Automated-Web-DB-Provisioning](./05-Automated-Web-DB-Provisioning/)**
    * **Focus:** Automated single-node infrastructure stack combining containerized web routing (Docker/Nginx) with a hardened relational database (MariaDB), secured via PAM `wheel` restrictions, and scheduled using custom `cron` Bash lifecycle wrappers.
+
+6. **[06-Nginx-Reverse-Proxy-Firewalld](./06-Nginx-Reverse-Proxy-Firewalld/)**
+   * **Focus:** Restored system repository connectivity via DNS configuration, deployed Nginx as a layer 7 reverse proxy for a backend Go service, and applied permanent host security rules using `firewalld`
 ---
 
 ## 📈 Objective
