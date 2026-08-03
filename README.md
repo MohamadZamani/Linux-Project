@@ -36,6 +36,10 @@ Welcome to my central repository for enterprise Linux administration, automation
 
 7. **[07-Linux-User-RBAC-Storage-Limits](./07-Linux-User-RBAC-Storage-Limits/)**
    * **Focus:** Enterprise multi-tenant user provisioning, POSIX ACL management, granular command-level Sudoers delegation, PAM process throttling (`limits.conf`), and XFS filesystem storage quotas.
+
+8. **[08-Linux-Data-Processing-Archiving-Automation](./08-Linux-Data-Processing-Archiving-Automation/)**
+   * **Focus:** Advanced `find` regex file segregation, stream text sanitization with `sed` & `grep`, sticky bit directory protection, compressed archive permission hardening (`440`), softlink creation, and in-memory tarball log parsing via Bash automation.
+
 ---
 
 ## 📈 Objective
